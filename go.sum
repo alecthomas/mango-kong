@@ -8,6 +8,8 @@ github.com/alecthomas/kong v1.2.1 h1:E8jH4Tsgv6wCRX2nGrdPyHDUCSG83WH2qE4XLACD33Q
 github.com/alecthomas/kong v1.2.1/go.mod h1:rKTSFhbdp3Ryefn8x5MOEprnRFQ7nlmMC01GKhehhBM=
 github.com/alecthomas/kong v1.3.0 h1:YJKuU6/TV2XOBtymafSeuzDvLAFR8cYMZiXVNLhAO6g=
 github.com/alecthomas/kong v1.3.0/go.mod h1:IDc8HyiouDdpdiEiY81iaEJM8rSIW6LzX8On4FCO0bE=
+github.com/alecthomas/kong v1.6.0 h1:mwOzbdMR7uv2vul9J0FU3GYxE7ls/iX1ieMg5WIM6gE=
+github.com/alecthomas/kong v1.6.0/go.mod h1:p2vqieVMeTAnaC83txKtXe8FLke2X07aruPWXyMPQrU=
 github.com/alecthomas/repr v0.0.0-20210801044451-80ca428c5142 h1:8Uy0oSf5co/NZXje7U1z8Mpep++QJOldL2hs/sBQf48=
 github.com/alecthomas/repr v0.0.0-20210801044451-80ca428c5142/go.mod h1:2kn6fqh/zIyPLmm3ugklbEi5hg5wS435eygvNfaDQL8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
