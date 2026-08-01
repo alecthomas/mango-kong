@@ -57,14 +57,18 @@ func addCommand(man *mango.ManPage, node *kong.Node, parent *mango.Command) {
 	}
 
 	for _, flag := range node.Flags {
+		help := flag.Help
 		short := ""
 		if flag.Short != 0 {
 			short = fmt.Sprintf("%c", flag.Short)
 		}
+		if flag.Env != "" {
+			help += fmt.Sprintf(" ($%s)", flag.Env)
+		}
 		item.AddFlag(mango.Flag{
 			Name:  strings.TrimPrefix(flag.Summary(), "--"),
 			Short: short,
-			Usage: flag.Help,
+			Usage: help,
 			PFlag: true,
 		})
 	}

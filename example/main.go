@@ -8,7 +8,7 @@ import (
 var cli struct {
 	Man  mangokong.ManFlag `help:"Print man page."`
 	Dest string            `help:"Destination directory." placeholder:"DIR"`
-	Log  string            `help:"Log level (${enum})." enum:"debug,info,warn,error" default:"debug"`
+	Log  string            `help:"Log level (${enum})." enum:"debug,info,warn,error" default:"debug" env:"EXAMPLE_DEBUG"`
 
 	Info   InfoCmd   `cmd:"" help:"Info command."`
 	Delete DeleteCmd `cmd:"" help:"Delete command."`
